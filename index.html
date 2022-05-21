@@ -29,13 +29,13 @@
               <section class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active bi bi-person-fill" aria-current="page" href="#"> Cadastre-se</a>
+                    <a class="nav-link active bi bi-person-fill"  aria-current="page" data-bs-toggle="modal" data-bs-target="#modal-cadastro" href="#"> Cadastre-se</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link bi bi-cart4" href="#"> Meus Pedidos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link bi bi-telephone-fill" href="#"> Contato</a>
+                    <a class="nav-link bi bi-telephone-fill" href="#" data-bs-toggle="modal" data-bs-target="#modal-contato"> Contato</a>
                   </li>
                 </ul>
               </section>
@@ -174,15 +174,80 @@
           </article>
       </div>
     </Section>
+
+<!-- Modal cadastro -->
+    <div class="modal fade" id="modal-cadastro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Cadastre-se</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email </label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  placeholder="nome@gmail.com" required>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Senha</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="*****" required >
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Manter-me logado</label>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            <submit type="button" class="btn btn-primary">Cadastrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- modal contato -->
+    <div class="modal fade" id="modal-contato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Contato</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Deixe seu comentario</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            <button type="button" class="btn btn-primary">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
     </main>
     <footer>
-      <div class=" fundo">
-        <img class="rodape rounded mx-auto d-block" src="img/face.png" alt="Facebook">
-        <p>@TamyBijus</p>
-        <img class="rodape rounded mx-auto d-block" src="img/Zap.png" alt="Whatsapp">
-        <p>@TamyBijus</p>
-        <img class="rodape rounded mx-auto d-block" src="img/instragran.png" alt="instragram">
-    </div>
+      <div class="container-fluid text-bg-dark p-3" >
+        <div class="row py-3">
+          <div class="col-12 col-md-4 text-center text-md-center">
+            &copy; 2021 - TamyBijus Online
+          </div>
+          <div class="col-12 col-md-4 text-center">
+            <a href="#" class="text-decoration-none text-light">Política de Privacidade</a>
+          </div>
+          <div class="col-12 col-md-4 text-center text-md-right">
+            <a href="#" class="text-decoration-none text-light"> Administração</a>
+          </div>
+        </div>
+      </div>
     </footer>
     
     
