@@ -17,18 +17,16 @@
     <!-- Css do Projeto -->
     <link rel="stylesheet" href="style.css">
 
-<!-- JavaScript Bootstrap  -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-light fixed-top p-3">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">TammyBijus</a>
+        <section class="navbar navbar-expand-lg bg-light fixed-top p-3 bg-white ">
+            <section class="container-fluid">
+              <img src="img/TamyBijus.png" class="navbar-brand logo">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <section class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
                     <a class="nav-link active bi bi-person-fill" aria-current="page" href="#"> Cadastre-se</a>
@@ -40,12 +38,156 @@
                     <a class="nav-link bi bi-telephone-fill" href="#"> Contato</a>
                   </li>
                 </ul>
-              </div>
-            </div>
-          </nav>
+              </section>
+            </section>
+            </section>
     </header>
-    
+    <main>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators ">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/anelCoracao.jpg" class="d-block w-100 imgCarosel" alt="Anel">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carosel1.jpg" class="d-block w-100 imgCarosel" alt="Puseira">
+          </div>
+          <div class="carousel-item">
+            <img src="img/brincoBorboleta.jpg" class="d-block w-100 imgCarosel" alt="Brinco">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
+      <h2 class="sub-titulo m-4 text-center">O melhor lugar para comprar suas bijuterias.</h2> 
+      
+      <!-- Cards -->
+      <Section class="container-fluid">
+        <div class="row">
+
+          <article class="card largura-cards col-md-2  m-4 border-0 "  >
+            <img src="img/Bijuterias q eu queria ter.jpg" class="card-img-top img-cards rounded-4" alt="Colar de Girassol ">
+            <div class="card-body">
+              <h5 class="card-title  text-center text-center">Colar de Girassol - Amarelo</h5>
+              <a href="#" class=" btn fs-3 text text-danger  m-3">R$7,99</a>
+            </div>
+          </article>
+
+          <article class="card largura-cards col-md-2  m-4 border-0 "  >
+            <img src="img/bricoAzul.jpg" class="card-img-top img-cards rounded-4" alt="Brincos verão">
+            <div class="card-body">
+              <h5 class="card-title  text-center">Brincos verão
+                Perfeitos para o seu look de verão!</h5>
+              <a href="#" class="btn fs-3 text text-danger  m-3">R$45,50</a>
+            </div>
+          </article>
+
+          <article class="card largura-cards col-md-2  m-4 border-0 "  >
+            <img src="img/colarAzul.jpg" class="card-img-top img-cards rounded-4" alt="...">
+            <div class="card-body">
+              <h5 class="card-title  text-center">Cristais Turquesa!</h5>
+              <a href="#" class="btn fs-3 text text-danger  m-3">R$37,50</a>
+            </div>
+          </article>
+
+          <article class="card largura-cards col-md-2  m-4 border-0 "  >
+            <img src="img/colarCoraçao.jpg" class="card-img-top img-cards rounded-4" alt="...">
+            <div class="card-body">
+              <h5 class="card-title  text-center">Colar cristais Vermelho com Pingente Coração</h5>
+              <a href="#" class="btn fs-3 text text-danger  m-3">R$23,75</a>
+            </div>
+          </article>
+
+          <article class="card largura-cards col-md-2  m-4 border-0 "  >
+            <img src="img/Colares.png" class="card-img-top img-cards rounded-4" alt="...">
+            <div class="card-body">
+              <h5 class="card-title  text-center">Colar Fantastic</h5>
+              <a href="#" class="btn fs-3 text text-danger  m-3">R$30,00</a>
+            </div>
+          </article>
+
+          <article class="card largura-cards col-md-2 m-4 border-0 "  >
+            <img src="img/relogio2.jpg" class="card-img-top img-cards rounded-4" alt="...">
+            <div class="card-body">
+              <h5 class="card-title  text-center">Relógio minimalista ultra fino 2021 </h5>
+              <a href="#" class="btn fs-3 text text-danger  m-3">R$77,99</a>
+            </div>
+          </article>
+
+          <article class="card largura-cards col-md-2 m-4 border-0 "  >
+            <img src="img/colarLua.jpg" class="card-img-top img-cards rounded-4" alt="...">
+            <div class="card-body">
+              <h5 class="card-title  text-center">Gargantilha de Ouro 18k Corações Lisos Portuguesa 40cm ga05398</h5>
+              <a href="#" class="btn fs-3 text text-danger  m-3">R$55,50</a>
+            </div>
+          </article>
+
+          <article class="card largura-cards col-md-2 m-4 border-0 "  >
+            <img src="img/chinelo.jpg" class="card-img-top img-cards rounded-4" alt="...">
+            <div class="card-body">
+              <h5 class="card-title  text-center">Chinelo Bordado com Pérolas Craqueladas</h5>
+              <a href="#" class="btn fs-3 text text-danger  m-3">R$33.70</a>
+            </div>
+          </article>
+
+          <article class="card largura-cards col-md-2 m-4 border-0 "  >
+            <img src="img/relogio.jpg" class="card-img-top img-cards rounded-4" alt="...">
+            <div class="card-body">
+              <h5 class="card-title  text-center">Relógio Masculino em Aço Inoxidável. Marca: Top Luxo - À Prova D 'Água</h5>
+              <a href="#" class="btn fs-3 text text-danger  m-3">R$100,00</a>
+            </div>
+          </article>
+
+          <article class="card largura-cards col-md-2 m-4 border-0 "  >
+            <img src="img/colar-esverdiado.jpg" class="card-img-top img-cards rounded-4" alt="...">
+            <div class="card-body">
+              <h5 class="card-title  text-center">Conjuntos de joias cor de prata, zircônia cúbica verde</h5>
+              <a href="#" class="btn fs-3 text text-danger  m-3">R$65.80</a>
+            </div>
+          </article>
+
+          <article class="card largura-cards col-md-2 m-4 border-0 "  >
+            <img src="img/brinco-cristao.jpg" class="card-img-top img-cards rounded-4 " alt="Brinco Gota D'água">
+            <div class="card-body">
+              <h5 class="card-title  text-center">Brinco Gota D'água </h5>
+              <a href="#" class="btn fs-3 text text-danger  m-3">R$55,00</a>
+            </div>
+          </article>
+
+          <article class="card largura-cards col-md-2 m-4 border-0 "  >
+            <img src="img/puseira.jpg" class="card-img-top img-cards rounded-4" alt="...">
+            <div class="card-body">
+              <h5 class="card-title  text-center">pulseiras delicadas</h5>
+              <a href="#" class="btn fs-3 text text-danger  m-3">R$28,99</a>
+            </div>
+          </article>
+      </div>
+    </Section>
+    </main>
+    <footer>
+      <div class=" fundo">
+        <img class="rodape rounded mx-auto d-block" src="img/face.png" alt="Facebook">
+        <p>@TamyBijus</p>
+        <img class="rodape rounded mx-auto d-block" src="img/Zap.png" alt="Whatsapp">
+        <p>@TamyBijus</p>
+        <img class="rodape rounded mx-auto d-block" src="img/instragran.png" alt="instragram">
+    </div>
+    </footer>
+    
+    
+    <!-- JavaScript Bootstrap  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="main.js"></script>
 </body>
 </html>

@@ -1,0 +1,35 @@
+.cabecalho{
+    background-color: pink;
+}
+
+.logo{
+    width: 200px;
+    height: 80px;
+}
+
+.imgCarosel{
+    height:450px;
+}
+
+.largura-cards{
+    width: 18rem
+}
+
+.sub-titulo{
+    font-weight: bold;
+}
+
+.img-cards{
+    width: 270px;
+    object-fit: cover;
+    height: 300px; 
+}
+
+.fundo{
+    background-color: gray;
+}
+
+.rodape{
+    width: 100px;
+    height: 100px;
+}
