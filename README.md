@@ -1,9 +1,9 @@
 # TammyBijus
-## Uma site de venda de bijuterias
+## Um site de venda de bijuterias
 
 Projeto🚀:https://tammy-bijus.vercel.app/
 
-### Esse projeto foi onde eu coloquei em prática um pouco de:
+### Nesse projeto coloquei em prática um pouco de:
 
 <table>
   <ol>
@@ -22,7 +22,7 @@ Tive a ideia de fazer esse projeto pois minha tia tem uma loja de bijuteria, já
 
 ### Obs:
 
-Não precisor usar o responsivo pós o bootstrap ja tem essa habilidade
+Não precisou usar o responsivo pois o bootstrap ja tem essa habilidade
 
 
 ![Captura de Tela (6)](https://user-images.githubusercontent.com/100521839/224103915-428d9622-b27c-4c67-adec-b8f806618d7d.png)
